@@ -17,6 +17,7 @@ In this project I'll be focusing on CNN: the VGG16, the dataset is ImageNet.
 
 ## Table of Contents
 * [What is DeepDream?](#what-is-deepdream)
+* [How to use](#Usage)
 * [Samples of Deep Dream pictures](#Samples-of-Deep-Dream-pictures)
 * [Problem I met](#Challenge)
 * [Learning material](#Reference)
