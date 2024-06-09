@@ -8,16 +8,12 @@ This notebook is associated with the [Google DeepDream algorithm](https://ai.goo
 
 <img src="data/out-images/VGG16_EXPERIMENTAL_IMAGENET/Test_width_600_model_VGG16_EXPERIMENTAL_IMAGENET_relu3_3_pyrsize_4_pyrratio_1.8_iter_10_lr_0.09_shift_32_smooth_0.5.jpg" alt="DeepDream example" align="center" style="width: 500px;"/> <br/>
 
-**A problem I haven't solved**
-
-But I failed to use the tensorflow core, It always show that the 'keras' is mot defined, although I have check that the version of my tensorflow, make sure that the offical tensorflow contain the keras- gpu, and I have tried several version, it still does not work, so I back to pytorch to work on my project.
-
-
-In this project I'll be focusing on CNN: the VGG16, the dataset is ImageNet.
+DeepDream is an artistic algorithm where a pretrained CNN is fed an image and optimized to amplify the features it "dogs" in the image.
+In this project I'll be focusing on CNN: the VGG16, the dataset is ImageNet. Depending on the neural network layer the features amplified will either be low level (like edges, certain geometric patterns, etc.) or high level (like dog snouts, eyes, etc.)
 
 ## Table of Contents
 * [What is DeepDream?](#what-is-deepdream)
-* [How to use](#Usage)
+* [How to use](#How-to-use)
 * [Samples of Deep Dream pictures](#Samples-of-Deep-Dream-pictures)
 * [Problem I met](#Challenge)
 * [Learning material](#Reference)
