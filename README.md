@@ -36,12 +36,18 @@ which part I can adjust.
 </p>
 
 #### Option 2: Lay_of_use
+`config['layers_to_use'] = ['relu5_3'] `
+
 <img src="table/layer_to_use.png" width="270"/>
 
 #### Option 3: pyramid_sizes and pyramid_ratio
+`pyramid_sizes = [1, 3, 5]`   `config['pyramid_ratio'] = 1.8 ` 
+
 <img src="table/pyramid_sizes and pyramid_ratio.png" width="270"/>
 
 #### Option 4: Lr and iterations
+`num_gradient_ascent_iterations = [2, 5, 20]` `config['lr'] = 0.09`  
+
 <img src="table/Lr and iterations.png" width="270"/>
 
 ## Samples of Deep Dream pictures
