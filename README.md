@@ -27,6 +27,21 @@ So from an input image like the one on the left after "dreaming" we get the imag
 <img src="data/out-images/VGG16_EXPERIMENTAL_IMAGENET/Test_width_600_model_VGG16_EXPERIMENTAL_IMAGENET_relu5_3_pyrsize_1_pyrratio_1.8_iter_10_lr_0.09_shift_32_smooth_0.5.jpg" width="400"/>
 </p>
 
+## Select the pre-trained model for DeepDream algorithm
+In the initial phase of DeepDream implementation, one of the following four pre-trained models, `VGG16, ResNet50, GoogLeNet, and AlexNet,` are chosen as main CNN architectures in the field of deep learning, as each of them possesses specific strengths and properties that allow them to generate dreamy images with different styles and details. These models perform well in image classification tasks.
+
+Because of The limited time, I can focus on a single model in this experiment. And VGG16 has a simple and clear hierarchical structure, using VGG16 to implement DeepDream can generate high-quality and fantastic effect images with delicate features, and it is well suited for pytorch with the lowest code difficulty, I chose to use VGG16 together with the imageNet and place360 datasets as the model for the project.
+<img src="table/vgg structure.png" alt="DeepDream example" align="center" style="width: 500px;"/> <br/>
+#### https://medium.com/@mygreatlearning/everything-you-need-to-know-about-vgg16-7315defb5918
+
+This part quoted the google deepdream and tensorFlow core. 
+
+## What is image pyramid
+In order to feed more information about the image into the CNN, the image is processed using an image pyramid, which generates a series of images of decreasing resolution by reducing the resolution of the image step by step. This multi-resolution representation captures features at different scales in the image so that the output image has more details.
+
+<img src="table/91b42c35cf183fece6b35b45258ff7d.png" align="center" style="width: 500px;"/> <br/>
+#### https://pyimagesearch.com/2015/03/16/image-pyramids-with-python-and-opencv/
+
 ## How to use
 which part I can adjust.
 #### Option 1: Image Loading, change the name of image in /data
