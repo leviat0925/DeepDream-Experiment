@@ -2,6 +2,8 @@
 
 This crazy and fantistic effect is inspirated by [DeepDream by Google]([https://github.com/gordicaleksa/pytorch-deepdream/blob/master/deepdream.py](https://research.google/blog/inceptionism-going-deeper-into-neural-networks/))
 
+<img src="deepdream.png" alt="DeepDream example" align="center" style="width: 500px;"/> <br/>
+
 This notebook is associated with the [Google DeepDream algorithm](https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html),[DeepDream | Tensorflow](https://www.tensorflow.org/tutorials/generative/deepdream?hl=zh-cn) and [pytorch-deepdream by Aleksa Gordić](https://github.com/gordicaleksa/pytorch-deepdream/blob/master/deepdream.py) !
 
 <img src="data/out-images/VGG16_EXPERIMENTAL_IMAGENET/Test_width_600_model_VGG16_EXPERIMENTAL_IMAGENET_relu3_3_pyrsize_4_pyrratio_1.8_iter_10_lr_0.09_shift_32_smooth_0.5.jpg" alt="DeepDream example" align="center" style="width: 500px;"/> <br/>
@@ -72,7 +74,7 @@ I found these notebook useful:
 * [neural-dream](https://github.com/ProGamerGov/neural-dream) (PyTorch)
 
 I found the images I was using here:
-* [Test]([https://www.pexels.com/photo/action-android-device-electronics-595804/](https://www.pinterest.co.uk/pin/5770305767404576/))
+* [Test](https://www.pinterest.co.uk/pin/5770305767404576/)
 * [bridge](https://www.pexels.com/photo/gray-bridge-and-trees-814499/)
 
-Thanks for the notebook from Google Deepdream & Pytorch-Deepdream by Aleksa Gordić
+## Thanks for the notebook from Google Deepdream & Pytorch-Deepdream by Aleksa Gordić
