@@ -76,7 +76,8 @@ Going from left to right the only parameter that changed was the number of itera
 1.The error I met
 But I failed to use the tensorflow core, It always show that the 'keras' is mot defined, although I have check that the version of my tensorflow, make sure that the offical tensorflow contain the keras- gpu, and I have tried several version, it still does not work, so I back to pytorch to work on my project.
 The error shows that
-AttributeError: module ‘tensorflow’ has no attribute ‘keras’
+`AttributeError: module ‘tensorflow’ has no attribute ‘keras’`
+
 2.I want to try to import the videos into deepdream, but my computer doesn't seem to be able to work with so many images, it always crashes! 
 &#128128;
 
