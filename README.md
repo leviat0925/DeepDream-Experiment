@@ -93,6 +93,8 @@ Going from left to right the only parameter that changed was the layer (from lef
 
 Going from left to right the only parameter that changed was the number of iterations (from left to right: 2, 5, 10).
 
+Other results can be seen in `data/out-images/VGG16_EXPERIMENTAL_IMAGENET`, with the differences in the data labeled among the naming.
+
 ## Challenge
 1.The error I met
 But I failed to use the tensorflow core, It always show that the 'keras' is mot defined, although I have check that the version of my tensorflow, make sure that the offical tensorflow contain the keras- gpu, and I have tried several version, it still does not work, so I back to pytorch to work on my project.
