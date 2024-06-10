@@ -2,6 +2,8 @@
 
 ### TINGFENG HU_23014804_MODULAR 
 
+### This is [Video](https://vimeo.com/956136144?share=copy) to record this project. 
+
 ## Motivation
 
 This crazy and fantistic effect is inspirated by [DeepDream by Google]([https://github.com/gordicaleksa/pytorch-deepdream/blob/master/deepdream.py](https://research.google/blog/inceptionism-going-deeper-into-neural-networks/)). And it will provide the power to create these weird, psychedelic-looking images.
