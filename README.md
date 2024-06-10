@@ -1,5 +1,9 @@
 # The DeepDream Experiments &#129302;&#128164;
 
+### TINGFENG HU_23014804_MODULAR 
+
+## Motivation
+
 This crazy and fantistic effect is inspirated by [DeepDream by Google]([https://github.com/gordicaleksa/pytorch-deepdream/blob/master/deepdream.py](https://research.google/blog/inceptionism-going-deeper-into-neural-networks/)). And it will provide the power to create these weird, psychedelic-looking images.
 
 <img src="deepdream.png" alt="DeepDream example" align="center" style="width: 500px;"/> <br/>
